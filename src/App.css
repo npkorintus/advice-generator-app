@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,65 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+#root {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.advice-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: hsl(217, 19%, 24%);
+}
+
+.id {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.advice {
+  color: hsl(193, 38%, 86%);
+  font-weight: 800;
+  font-size: 28px;
+  margin-top: 32px;
+}
+
+.divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dot-container {
+  height: 10px;
+}
+
+.dot {
+  height: 60px;
+  width: 60px;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* .dice-img {
+  transform: translateY(16px);
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 16px;
+  width: 100%;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
