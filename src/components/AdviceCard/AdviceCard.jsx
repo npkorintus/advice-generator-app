@@ -8,6 +8,8 @@ import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
 import CircularProgress from '@mui/joy/CircularProgress';
 
+import diceIcon from '../../../public/assets/images/icon-dice.svg';
+
 const AdviceCard = () => {
   const initialAdviceCardState = {
     slip: {
@@ -71,7 +73,7 @@ const AdviceCard = () => {
               display: 'inline-block'
             }}
           >
-            <img className='dice-img' src={'/assets/images/icon-dice.svg'} />
+            <img className='dice-img' src={diceIcon} alt="dice-icon" />
           </Button>
         </div>
       {/* </Card> */}
