@@ -8,6 +8,8 @@ import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
 import CircularProgress from '@mui/joy/CircularProgress';
 
+import dividerDesktop from '../../assets/images/pattern-divider-desktop.svg'
+import dividerMobile from '../../assets/images/pattern-divider-mobile.svg'
 import diceIcon from '../../assets/images/icon-dice.svg';
 
 const AdviceCard = () => {
@@ -57,7 +59,7 @@ const AdviceCard = () => {
         <div className='id'>Advice #{adviceSlip.slip.id}</div>
         <div className='advice'><q>{adviceSlip.slip.advice}</q></div>
         <div className='divider'>
-          <img src={mobile ? '/assets/images/pattern-divider-mobile.svg' : '/assets/images/pattern-divider-desktop.svg'} />
+          <img src={mobile ? dividerMobile : dividerDesktop} alt="divider" />
         </div>
         <div className='dot-container'>
           {/* <span className='dot'>
