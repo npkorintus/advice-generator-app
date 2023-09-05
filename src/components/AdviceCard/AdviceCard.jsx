@@ -8,7 +8,7 @@ import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
 import CircularProgress from '@mui/joy/CircularProgress';
 
-import diceIcon from '../../../public/assets/images/icon-dice.svg';
+import diceIcon from '../../assets/images/icon-dice.svg';
 
 const AdviceCard = () => {
   const initialAdviceCardState = {
