@@ -55,7 +55,7 @@ const AdviceCard = () => {
         <div className='id'>Advice #{adviceSlip.slip.id}</div>
         <div className='advice'><q>{adviceSlip.slip.advice}</q></div>
         <div className='divider'>
-          <img src={mobile ? '../../pattern-divider-mobile.svg' : '../../pattern-divider-desktop.svg'} />
+          <img src={mobile ? '/assets/images/pattern-divider-mobile.svg' : '/assets/images/pattern-divider-desktop.svg'} />
         </div>
         <div className='dot-container'>
           {/* <span className='dot'>
@@ -71,7 +71,7 @@ const AdviceCard = () => {
               display: 'inline-block'
             }}
           >
-            <img className='dice-img' src={'../../icon-dice.svg'} />
+            <img className='dice-img' src={'/assets/images/icon-dice.svg'} />
           </Button>
         </div>
       {/* </Card> */}
