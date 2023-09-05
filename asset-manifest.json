@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/github.io/advice-generator-app/static/css/main.2e89179f.css",
-    "main.js": "/github.io/advice-generator-app/static/js/main.1625b5f9.js",
-    "static/js/787.fe2905bd.chunk.js": "/github.io/advice-generator-app/static/js/787.fe2905bd.chunk.js",
-    "index.html": "/github.io/advice-generator-app/index.html",
-    "main.2e89179f.css.map": "/github.io/advice-generator-app/static/css/main.2e89179f.css.map",
-    "main.1625b5f9.js.map": "/github.io/advice-generator-app/static/js/main.1625b5f9.js.map",
-    "787.fe2905bd.chunk.js.map": "/github.io/advice-generator-app/static/js/787.fe2905bd.chunk.js.map"
+    "main.css": "/advice-generator-app/static/css/main.2e89179f.css",
+    "main.js": "/advice-generator-app/static/js/main.f9ae2669.js",
+    "static/js/787.fe2905bd.chunk.js": "/advice-generator-app/static/js/787.fe2905bd.chunk.js",
+    "index.html": "/advice-generator-app/index.html",
+    "main.2e89179f.css.map": "/advice-generator-app/static/css/main.2e89179f.css.map",
+    "main.f9ae2669.js.map": "/advice-generator-app/static/js/main.f9ae2669.js.map",
+    "787.fe2905bd.chunk.js.map": "/advice-generator-app/static/js/787.fe2905bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e89179f.css",
-    "static/js/main.1625b5f9.js"
+    "static/js/main.f9ae2669.js"
   ]
 }
