@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
 
-// import AdviceSlipData from '../../types/AdviceSlip';
-// import AdviceSlipService from '../../services/AdviceService';
 import AdviceAPI from '../../api/api';
 
 import Button from '@mui/joy/Button';
-import Card from '@mui/joy/Card';
+// import Card from '@mui/joy/Card';
 import CircularProgress from '@mui/joy/CircularProgress';
 
 import dividerDesktop from '../../assets/images/pattern-divider-desktop.svg'
@@ -55,16 +53,12 @@ const AdviceCard = () => {
   return (
     loading ? <CircularProgress /> : (
       <div className='advice-card'>
-      {/* <Card> */}
         <div className='id'>Advice #{adviceSlip.slip.id}</div>
         <div className='advice'><q>{adviceSlip.slip.advice}</q></div>
         <div className='divider'>
           <img src={mobile ? dividerMobile : dividerDesktop} alt="divider" />
         </div>
         <div className='dot-container'>
-          {/* <span className='dot'>
-            <img className='dice-img' src={'../../icon-dice.svg'} />
-          </span> */}
           <Button
             onClick={() => fetchAdvice()}
             style={{
@@ -78,7 +72,6 @@ const AdviceCard = () => {
             <img className='dice-img' src={diceIcon} alt="dice-icon" />
           </Button>
         </div>
-      {/* </Card> */}
       </div>
      )
   );
