@@ -21,7 +21,10 @@ const AdviceCard = () => {
   const [adviceSlip, setAdviceSlip] = useState(initialAdviceCardState);
   const [loading, setLoading] = useState(true);
   const [width, setWidth] = useState(window.innerWidth);
-  const mobile = width <= 375;
+  const mobile = width <= 768;
+
+  console.log('width', width);
+  console.log('mobile', mobile);
 
   const handleWindowSizeChange = () => {
     setWidth(window.innerWidth);
